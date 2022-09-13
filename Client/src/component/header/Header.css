@@ -1,0 +1,14 @@
+.header-body{
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+    
+
+    .header-body{
+        
+        padding: 20px; 
+    }
+
+
+}

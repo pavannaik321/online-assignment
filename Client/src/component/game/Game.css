@@ -1,0 +1,51 @@
+.game{
+    padding: 10px;
+    height: 500px;
+    text-align: center;
+    
+}
+
+.txt{
+    position: relative;
+    top: 200px;
+    color: aqua;
+}
+
+.btn1{
+    position: relative;
+    top: 250px;
+    margin-right: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+  padding: 0.5em 1.0em 0.4em 1.0em;
+  border-radius: 3px;
+    
+}
+.btn2{
+    position: relative;
+    top: 250px;
+    margin-right: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, #ff7426 0%, #f93a13 100%);
+  padding: 0.5em 1.0em 0.4em 1.0em;
+  border-radius: 3px;
+    
+}
+.yes{
+    text-decoration: none;
+    color: white;
+}
+.yes:hover{
+    color: white;
+}
+
+.color{
+    color: rgb(3, 227, 227);
+}
+

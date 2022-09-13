@@ -1,0 +1,18 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+/* .sigin{
+    background-color: #9bffff96;
+    border-radius: 3rem;
+    
+}
+
+*/
+.sigin-main{
+    height: 47rem;
+} 

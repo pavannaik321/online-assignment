@@ -1,0 +1,18 @@
+body{
+    background-color: white;
+}
+
+/* .header-body{
+    display: none;
+}
+
+.footer-main{
+    display: none;
+} */
+#notfound{
+    height: 100vh;
+    background-color: #f1ffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

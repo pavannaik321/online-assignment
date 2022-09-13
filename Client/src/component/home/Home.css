@@ -1,0 +1,492 @@
+.home-body {
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.text {
+  font-family: "Verdana", cursive, sans-serif;
+  color: black;
+  font-size: 19px;
+  text-align: center;
+}
+.text2 {
+  font-family: "Verdana", cursive, sans-serif;
+  color: black;
+  font-size: 19px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.text3 {
+  font-family: "Verdana", cursive, sans-serif;
+  color: #424242;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 100;
+}
+.header {
+  text-align: center;
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.home-info {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 5px;
+  box-shadow: -1px -11px 19px -12px #b5b5b5;
+  background-color: rgb(255, 255, 255);
+  height: 28rem;
+  border-radius: 44px;
+  z-index: 1;
+}
+
+.masthed {
+  width: 52rem;
+}
+.masthed2 {
+ 
+  position: relative;
+  bottom: 28px;
+  height: 28rem;
+  z-index: 2;
+}
+
+
+.home-btn {
+  transition: transform 1s ease-in-out;
+  background-color: transparent;
+  width: 119px;
+  height: 44px;
+  font-size: 19px;
+  border-radius: 6px;
+  border: 1px 1px 1px 1px #13a288;
+}
+
+.home-btn:hover{
+  border: none;
+  background-color: #13a288;
+  color: white;
+
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.btn-bdy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home-mid {
+  display: flex;
+  flex-direction: row;
+  background-color: #28c8ab;
+  position: relative;
+  bottom: 40px;
+  height: 35rem;
+}
+
+.home-mid-text {
+  text-align: center;
+
+  font-weight: 100;
+  font-family: "Verdana", cursive, sans-serif;
+  color: rgb(250, 250, 250);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.home-mid-p{
+  text-align: start;
+  padding: 16px;
+  margin-left: 15px;
+  color: white;
+  font-family: "Verdana", cursive, sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.home-call{
+  padding: 6rem;
+}
+
+/* Card */
+
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 11px 9px -5px #c6c6c6;
+
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  height: fit-content;
+  border-radius: 44px;
+  z-index: 1;
+  position: relative;
+  bottom: 5rem;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.card-info{
+  background-color: rgb(255, 255, 255);
+
+  height: 28rem;
+  border-radius: 44px;
+  z-index: 1;
+  
+}
+
+.card-h2{
+  text-align: center;
+
+  font-weight: 100;
+  font-family: "Verdana", cursive, sans-serif;
+  color: #28c8ab;
+  font-size: 19px;
+  text-align: center;
+}
+
+.card-img{
+  width: 13rem;
+  height: 16rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.card-1{
+  box-shadow: -1px 1px 27px -10px black;
+  width: fit-content;
+  position: relative;
+  left: 4rem;
+  margin-top: 2rem;
+  border-radius: 13px;
+
+}
+
+.card-btn-bdy{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  bottom: 8rem;
+  
+}
+.card-btn{
+  background-color: #13a288;
+  width: 119px;
+  height: 44px;
+  font-size: 19px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  opacity: 0;
+  visibility: hidden;
+
+  transition: opacity 0.5s ease;
+  
+  
+}
+
+.card-txt{
+  font-family: sans-serif;
+  position: relative;
+  text-align: center;
+  top: 1rem;
+  color: rgb(106, 106, 106);
+}
+
+
+.card-1:hover .card-btn{
+  opacity: 1;
+
+  visibility: visible;
+  pointer-events:auto;
+  transition: opacity 0.5s ease;
+  cursor: pointer;
+  
+}
+.card-1:hover{
+background-color: rgb(50, 153, 255);
+transition: opacity 0.5s ease;
+}
+
+.home-call2{
+  position: relative;
+  top: 8rem;
+  width: 42rem;
+}
+
+.home-call3{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile view */
+
+
+@media only screen and (max-width: 500px) {
+
+  .home-call{
+    position: relative;
+    bottom: 5rem;
+    padding: 2px;
+  }
+
+  .home-body {
+    background-color: #F5F6F8;
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    font-family: "Verdana", cursive, sans-serif;
+    color: black;
+    font-size: 19px;
+    text-align: center;
+  }
+  .text2 {
+    font-family: "Verdana", cursive, sans-serif;
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    font-weight: 100;
+  }
+
+  .text3 {
+    font-family: "Verdana", cursive, sans-serif;
+    color: #424242;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 100;
+  }
+  .header {
+    text-align: center;
+    height: 60px;
+    margin-bottom: 30px;
+  }
+
+  .home-info {
+    display: flex;
+  flex-direction: column;
+    padding: 5px;
+    box-shadow: -1px -11px 19px -12px #b5b5b5;
+    background-color: rgb(255, 255, 255);
+    height: 28rem;
+    border-radius: 44px;
+    z-index: 1;
+  }
+
+  .masthed {
+    width: 333px;
+  }
+  .masthed2 {
+   
+    position: relative;
+    bottom: 28px;
+    width: 333px;
+    z-index: 2;
+  }
+
+
+  .home-btn {
+    transition: transform 1s ease-in-out;
+    background-color: transparent;
+    width: 119px;
+    height: 44px;
+    font-size: 19px;
+    border-radius: 6px;
+    border: 1px 1px 1px 1px #13a288;
+  }
+
+  .home-btn:hover{
+    border: none;
+    background-color: #13a288;
+    color: white;
+
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .btn-bdy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .home-mid {
+    display: flex;
+    flex-direction: column;
+    background-color: #28c8ab;
+    position: relative;
+    bottom: 40px;
+    height: 35rem;
+  }
+
+  .home-mid-text {
+    text-align: center;
+
+    font-weight: 100;
+    font-family: "Verdana", cursive, sans-serif;
+    color: rgb(250, 250, 250);
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .home-mid-p{
+    text-align: start;
+    padding: 16px;
+    margin-left: 15px;
+    color: white;
+    font-family: "Verdana", cursive, sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+  }
+
+
+  /* Card */
+  
+
+  .card-body{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 11px 9px -5px #c6c6c6;
+
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    border-radius: 44px;
+    z-index: 1;
+    position: relative;
+    bottom: 5rem;
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+  .card-info{
+    background-color: rgb(255, 255, 255);
+
+    height: 28rem;
+    border-radius: 44px;
+    z-index: 1;
+    
+  }
+ 
+  .card-h2{
+    text-align: center;
+
+    font-weight: 100;
+    font-family: "Verdana", cursive, sans-serif;
+    color: #28c8ab;
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .card-img{
+    width: 13rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .card-1{
+    box-shadow: -1px 1px 27px -10px black;
+    width: fit-content;
+    position: relative;
+    left: 4rem;
+    margin-top: 2rem;
+    border-radius: 13px;
+
+}
+ 
+.card-btn-bdy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    bottom: 8rem;
+    
+}
+.card-btn{
+    background-color: #13a288;
+    width: 119px;
+    height: 44px;
+    font-size: 19px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+
+    transition: opacity 0.5s ease;
+    
+    
+}
+
+.card-txt{
+    font-family: sans-serif;
+    position: relative;
+    text-align: center;
+    top: 1rem;
+    color: rgb(106, 106, 106);
+}
+
+
+.card-1:hover .card-btn{
+    opacity: 1;
+
+    visibility: visible;
+    pointer-events:auto;
+    transition: opacity 0.5s ease;
+    cursor: pointer;
+    
+}
+.card-1:hover{
+  background-color: rgb(50, 153, 255);
+  transition: opacity 0.5s ease;
+}
+
+.home-call2{
+  position: relative;
+  bottom: 3rem;
+  top: -1rem;
+  width: -webkit-fill-available;
+}
+
+.home-call3{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+}
+
+
+
